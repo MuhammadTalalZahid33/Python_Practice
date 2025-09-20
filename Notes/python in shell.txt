@@ -71,3 +71,38 @@ hello python...
 >>> hello.var3
 33
 >>> 
+
+
+
+
+// ********************* IMMUTABLE AND IMMUTABLE **********************
+
+>>> print("let's study mutable and immutable"
+... 
+... 
+... )
+let's study mutable and immutable
+>>> user = "talal"
+>>> user
+'talal'
+>>> user = "khalid"
+>>> user
+'khalid'
+>>> print("here as u can see the string is being changed but it is immutable(so it shouldn't be changed")
+here as u can see the string is being changed but it is immutable(so it shouldn't be changed
+>>> print("but changeable or unchangeable thing is applied in the memory, means it can't be changed in memory, a new reference is cre\ated actually")
+but changeable or unchangeable thing is applied in the memory, means it can't be changed in memory, a new reference is created actually
+>>> print("here's another example")
+here's another example
+>>> x = 9
+>>> y = x
+>>> y
+9
+>>> x = 39
+>>> y
+9
+>>> x
+39
+>>> print("similar is the case for integers, as it is immutable")
+similar is the case for integers, as it is immutable
+>>> 
