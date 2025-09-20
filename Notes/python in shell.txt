@@ -1,0 +1,73 @@
+PS E:\2.documents\Python_git\Python_Practice\basics> python
+Python 3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print("hfdsf")
+hfdsf
+>>> score = 343
+>>> score
+343 
+>>> 3 * chalo
+Traceback (most recent call last):
+>>> ^Z
+PS E:\2.documents\Python_git\Python_Practice\basics> 
+PS E:\2.documents\Python_git\Python_Practice\basics> 
+PS E:\2.documents\Python_git\Python_Practice\basics> 
+PS E:\2.documents\Python_git\Python_Practice\basics> python
+Python 3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import os
+>>> os.getcwd()
+'E:\\2.documents\\Python_git\\Python_Practice\\basics'
+>>> import sys
+>>> sys.plateform
+Traceback (most recent call last):
+  File "<python-input-3>", line 1, in <module>
+    sys.plateform
+AttributeError: module 'sys' has no attribute 'plateform'. Did you mean: 'platform'?
+>>> sys.platform
+'win32'
+hello python...
+33
+hello world
+>>> import hello
+>>> 
+>>> import hello
+>>> import hello
+>>> ^Z
+PS E:\2.documents\Python_git\Python_Practice\basics> python
+Python 3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import hello
+hello python...
+33
+>>> hello.firstfunc
+<function firstfunc at 0x0000021AF3B63740>
+>>> hello.firstfunc(fsdf)
+Traceback (most recent call last):
+  File "<python-input-2>", line 1, in <module>
+    hello.firstfunc(fsdf)
+                    ^^^^
+NameError: name 'fsdf' is not defined
+>>> hello.firstfunc("sdfsd")
+sdfsd
+>>> hello.var1
+Traceback (most recent call last):
+  File "<python-input-4>", line 1, in <module>
+    hello.var1
+AttributeError: module 'hello' has no attribute 'var1'
+>>> from importlib import reload
+>>> hello.var1
+Traceback (most recent call last):
+  File "<python-input-6>", line 1, in <module>
+    hello.var1
+AttributeError: module 'hello' has no attribute 'var1'
+>>> from importlib import reload
+>>> reload(hello)
+hello python...
+33
+<module 'hello' from 'E:\\2.documents\\Python_git\\Python_Practice\\basics\\hello.py'>
+>>> hello.var1
+'talal'
+>>> hello.var3
+33
+>>> 
