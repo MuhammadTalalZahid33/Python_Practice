@@ -39,3 +39,8 @@ A = "Sally"
 #A will not overwrite a 
 
 
+
+# Declaring multiple variables together...
+x , y , z = 2 , "talal" , 5.4
+
+print(x, y, z)
