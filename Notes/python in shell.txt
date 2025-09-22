@@ -106,3 +106,49 @@ here's another example
 >>> print("similar is the case for integers, as it is immutable")
 similar is the case for integers, as it is immutable
 >>> 
+
+
+
+
+
+// String Operations
+>>> 5 + "talal"
+Traceback (most recent call last):
+  File "<python-input-15>", line 1, in <module>
+    5 + "talal"
+    ~~^~~~~~~~~
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+>>> 5 * "talal"
+'talaltalaltalaltalaltalal'
+>>> print("hello","world")
+hello world
+>>> print("hello", "world")
+hello world
+>>> print("hello", " world")
+hello  world
+>>> print("hello"+"world")
+helloworld
+>>> print("hello"+ "world")
+helloworld
+>>> print("hello"+ " world")
+hello world
+>>> a = "Hello, World!"
+>>> print(a[1])
+e
+>>> a = "Hello, World!"
+>>> print(a[1])
+e
+>>> txt = "The best things in life are free!"
+>>> if "expensive" not in txt:
+...       print("No, 'expensive' is NOT present.")
+... 
+No, 'expensive' is NOT present.
+>>> if "expensive" not in txt:
+...       print("No, expensive is NOT present.")
+... 
+No, expensive is NOT present.
+>>> print("hello\rworld")
+world
+>>> print("hello\nworld")
+hello
+world
