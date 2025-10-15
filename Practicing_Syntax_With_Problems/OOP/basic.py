@@ -5,7 +5,14 @@ class Car:
         self.brand = brand
         self.model = model
 
+# Problem: Add a method to the Car class that displays the full name of the car (brand and model). 
+    def GetFullName(self):
+        return f"brand: {self.brand} and model: {self.model}"
+
+
 
 myCar = Car("honda", "civic")
 print(myCar.brand)
 print(myCar.model)
+
+print(myCar.GetFullName())
