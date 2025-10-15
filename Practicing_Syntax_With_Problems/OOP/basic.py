@@ -1,9 +1,12 @@
 # Problem: Create a Car class with attributes like brand and model. Then create an instance of this class. 
 
 class Car:
+# Problem: Add a class variable to Car that keeps track of the number of cars created. 
+    total_car = 0
     def __init__(self, brand, model):
         self.__brand = brand
         self.model = model
+        Car.total_car += 1
 
 # Problem: Add a method to the Car class that displays the full name of the car (brand and model). 
     def GetFullName(self):
@@ -33,4 +36,4 @@ print(electicCar.GetFullName())
 print(myCar.get_brand())
 print(electicCar.get_brand())
 
-
+print(Car.total_car)
