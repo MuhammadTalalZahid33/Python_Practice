@@ -2,13 +2,17 @@
 
 class Car:
     def __init__(self, brand, model):
-        self.brand = brand
+        self.__brand = brand
         self.model = model
 
 # Problem: Add a method to the Car class that displays the full name of the car (brand and model). 
     def GetFullName(self):
-        return f"brand: {self.brand} and model: {self.model}"
+        return f"brand: {self.__brand} and model: {self.model}"
 
+# Problem: Modify the Car class to encapsulate the brand attribute, making it private,
+# and provide a getter method for it. 
+    def get_brand(self):
+        return self.__brand
 
 # Problem: Create an ElectricCar class that inherits from the Car class 
 # and has an additional attribute battery_size. 
@@ -19,10 +23,14 @@ class ElectricCar(Car):
 
 
 myCar = Car("honda", "civic")
-print(myCar.brand)
+# print(myCar.brand)
 print(myCar.model)
-
 print(myCar.GetFullName())
 
 electicCar = ElectricCar("tesla", "model s", "100Kwh")
 print(electicCar.GetFullName())
+
+print(myCar.get_brand())
+print(electicCar.get_brand())
+
+
